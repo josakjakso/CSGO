@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<form method="post" asp-controller="CSGO" asp-action="SubmitForm">
+    <textarea  name="input" class="form-control" rows="4" cols="50" required ></textarea>
+
+    <div>
+    <input type="checkbox" id="Constant Folding" name="Optimization1" value="Constant Folding">
+    <label for="Constant Folding"> Constant Folding</label><br>
+    <input type="checkbox" id="Algebraic Identity" name="Optimization2" value="Algebraic Identity">
+    <label for="Algebraic Identity"> Algebraic Identity</label><br>
+    <input type="checkbox" id="Strength Reduction" name="Optimization3" value=Strength Reduction">
+    <label for="Strength Reduction"> Strength Reduction</label>
+
+        
+    </div>
+    <button type="submit">Submit</button>
+
+
+</form>
